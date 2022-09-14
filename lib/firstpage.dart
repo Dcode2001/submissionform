@@ -67,7 +67,7 @@ class _firstpageState extends State<firstpage> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(child: Scaffold(
-      appBar: AppBar(title: Text("SUBMISSION FORM")),
+      appBar: AppBar(title: Text("SUBMISSION FORM"),centerTitle: true,),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 11),
         child: SingleChildScrollView(
